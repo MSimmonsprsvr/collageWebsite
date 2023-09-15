@@ -1,0 +1,74 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 10px; /* Set site-wide font size to 10px */
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* Assign a suitable line-height for body text */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-family: "Your Sans-serif or Slab Serif Font", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px; /* Adjust letter-spacing for headings */
+    text-transform: uppercase; /* Optionally, make the heading uppercase for emphasis */
+}
+
+.container {
+    display: flex; /* Implement flexbox for the main layout */
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.summary, .courses, .navigation {
+    width: 30%;
+}
+
+.summary h2, .courses h2, .navigation h2 {
+    font-family: "Your Serif Font", serif;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize; /* Optionally, capitalize the headings */
+}
+
+.courses ul {
+    list-style: none;
+}
+
+.courses ul li {
+    margin-bottom: 1rem;
+}
+
+.see-more {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #333;
+    background-color: #ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.see-more:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
