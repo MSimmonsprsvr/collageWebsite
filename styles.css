@@ -8,7 +8,7 @@ body, h1, h2, p, ul, li {
 }
 
 body {
-    font-size: 10px; /* Set site-wide font size to 10px */
+    font-size: 1rem; /* Set site-wide font size to 10px */
     font-family: 'Times New Roman', Times, serif;
 
     line-height: 1.6; /* Assign a suitable line-height for body text */
@@ -60,9 +60,9 @@ header h1 {
 .nodot {
     display: flex;
     list-style-type: none;
-    width: 100px;
-    height: 50px;
-    font-size: 15px;
+    width: 150px;
+    height: 75px;
+    font-size: 1rem;
    
     border-radius: 10%;
    
